@@ -5,4 +5,4 @@ so my goal is to make some of the recipes i already make or at least start with 
 that will be Spaghetti, lasagne, pizza, bread and cake
 
 I came with the idea of making the recipes web in a niche market that is the "Cheese lovers"
-so the web name and idea will be around that concept
+so the web name and idea will be around that concept if possible
