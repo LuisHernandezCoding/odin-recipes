@@ -1,0 +1,72 @@
+/* styles.css 
+
+div {
+  color: white;
+  background-color: black;
+}
+
+p {
+  color: red;
+}
+
+*/
+
+/* Main Design */
+
+body {
+    color: #360123;
+    background-color: #C9AA20;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+a {
+    color: #A10269;
+}
+
+/* Header */
+
+.header {
+    overflow: hidden;
+    background-color: #94577F;
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+img.logoIMG {
+    width: 100px;
+    height: auto;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+}
+

@@ -4,14 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <title>Cheese Day</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- I used a simple jquery function to load header and footer -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    $(function(){
+      $("#header").load("./header.html"); 
+      $("#footer").load("./footer.html"); 
+    });
+    </script> 
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/BakedSpaghetti.html">Baked Spaghetti</a>
-    <a href="recipes/Lasagne.html">Lasagne</a>
-    <a href="recipes/Pizza.html">Pizza</a>
-    <a href="recipes/Bread.html">Bread</a>
-    <a href="recipes/Cake.html">Cake</a>
+    <div id="header"></div>
+    <div class="Panel">
+        <p>
+            <a href="recipes/BakedSpaghetti.html"><h2>Baked Spaghetti</h1></a>            
+            <img src="./images/BakedSpaghetti.jpeg" alt="Baked Spaghetti photo">
+            <p>
+                <em>Recipe with plenty of melted cheese the perfect dish for Cheese Day!.</em>
+            </p>
+        </p>
+        
+        <p>
+            <a href="recipes/Lasagne.html">Lasagne</a>
+            <img src="./images/lasagne.webp" alt="lasagne photo">
+            <p>
+                <em>This is an adaptation of the official lasagne from the Bolognese Chamber of Commerce. I've made a couple of changes suggested to me by people from the area, such as which meat and wine to use or if there should be milk added or not. One thing never in question, though, is the green lasagne sheets. These are a must. The ragu is an authentic sauce, simple without garlic or herbs and spices. Using fresh pasta keeps you from having to pre-boil it.</em>
+            </p>            
+        </p>
+        <p>
+            <a href="recipes/Pizza.html">Pizza</a>
+        </p>
+        <p>
+            <a href="recipes/Bread.html">Bread</a>
+        </p>
+        <p>
+            <a href="recipes/Cake.html">Cake</a>
+        </p>
+    </div>
 </body>
 </html>
